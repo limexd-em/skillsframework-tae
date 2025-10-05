@@ -1,0 +1,190 @@
+.sf-cards-container .col-6 {
+    height: 140px;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+    .sf-cards-container .col-6 {
+        height: 150px;
+    }
+}
+
+.sf-cards-container .col-6 .sf-card {
+    text-decoration: none;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    padding: 16px;
+    grid-gap: 8px;
+    gap: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+    .sf-cards-container .col-6 .sf-card img {
+        height: 48px;
+    }
+
+    .sf-cards-container .col-6 .sf-card span {
+        text-align: center;
+    }
+
+.skills-search-container {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #818181;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+    .skills-search-container i, .skills-search-container em {
+        font-size: 18px;
+    }
+
+    .skills-search-container input {
+        border: none;
+        width: 92%;
+    }
+
+        .skills-search-container input.focus-visible, .skills-search-container input:focus {
+            outline-style: none;
+            outline: none;
+        }
+
+        .skills-search-container input:focus-visible, .skills-search-container input:focus {
+            outline-style: none;
+            outline: none;
+        }
+
+.skills-filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .skills-filter-container {
+        justify-content: end;
+    }
+}
+
+.skills-filter-container p {
+    margin-right: 8px;
+    margin-bottom: 0;
+    font-family: "Inter-Bold";
+}
+
+.skills-filter-container .drpBtn {
+    width: 200px;
+    height: 40px;
+    padding: 4px 16px;
+}
+
+.skills-filter-container .drpMenu {
+    width: 200px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+    .skills-filter-container .drpMenu .dropdown-item {
+        padding: 10px 16px;
+        border-radius: 5px;
+    }
+
+.credit-3-layout .row .col-12 {
+    margin-bottom:1rem;
+}
+
+.credit-3-layout .row .col-12 article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    height: 100%;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+    .credit-3-layout article .credit-3-img-container {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+        .credit-3-layout article .credit-3-img-container img {
+            max-width: 275px;
+            align-self: center;
+            margin-bottom: 2rem;
+        }
+
+@media (min-width: 768px) {
+    .credit-3-layout article .credit-3-img-container img {
+        max-width: 60%;
+    }
+}
+
+.credit-3-layout article .credit-3-text {
+    min-height: 180px;
+}
+
+    .credit-3-layout article .credit-3-text .credit-3-head {
+        min-height: 0;
+    }
+
+@media (min-width: 768px) {
+    .credit-3-layout article .credit-3-text .credit-3-head {
+        min-height: 60px;
+    }
+}
+
+.credit-3-layout article .credit-3-text p {
+    margin: 0;
+}
+
+.credit-3-layout article .credit-3-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    grid-gap: 1rem;
+    gap: 1rem;
+    min-height: 0;
+}
+
+@media (min-width: 768px) {
+    .credit-3-layout article .credit-3-links .btn-blue {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 992px) {
+    .credit-3-layout article .credit-3-links .btn-blue {
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .credit-3-layout article .credit-3-links .btn-blue {
+        font-size: 1em;
+    }
+}
+
+/*
+     FILE ARCHIVED ON 21:56:40 Jul 18, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:26:46 Oct 05, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.555
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.008
+  esindex: 0.012
+  cdx.remote: 27.42
+  LoadShardBlock: 253.117 (3)
+  PetaboxLoader3.datanode: 147.299 (4)
+  PetaboxLoader3.resolve: 245.799 (2)
+  load_resource: 163.164
+*/
