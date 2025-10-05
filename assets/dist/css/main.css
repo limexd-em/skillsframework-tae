@@ -1,37 +1,4 @@
-@font-face {
-    font-family: "Inter-Light";
-    src: url("https://web.archive.org/web/20250803143803im_/https://www.skillsfuture.gov.sg/assets/dist/fonts/Inter-Light.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Inter-Regular";
-    src: url("https://web.archive.org/web/20250803143803im_/https://www.skillsfuture.gov.sg/assets/dist/fonts/Inter-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Inter-SemiBold";
-    src: url("https://web.archive.org/web/20250803143803im_/https://www.skillsfuture.gov.sg/assets/dist/fonts/Inter-SemiBold.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Inter-Bold";
-    src: url("https://web.archive.org/web/20250803143803im_/https://www.skillsfuture.gov.sg/assets/dist/fonts/Inter-Bold.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Inter-ExtraBold";
-    src: url("https://web.archive.org/web/20250803143803im_/https://www.skillsfuture.gov.sg/assets/dist/fonts/Inter-ExtraBold.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
+/* Inter fonts are loaded via Google Fonts in the HTML head */
 
 @font-face {
     font-family: "Roboto-Bold";
@@ -51,14 +18,16 @@ main {
 }
 
     p {
-        font-family: "Inter-Regular";
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
         font-size: 1em;
         color: #344054;
     }
 
     a,
     .hyper-link {
-        font-family: "Inter-Regular" !important;
+        font-family: "Inter", sans-serif !important;
+        font-weight: 400;
         font-size: 1em;
         color: #0f71bb;
         text-decoration: none;
@@ -91,12 +60,13 @@ main {
     h3,
     h4,
     h5 {
-        font-family: "Inter-ExtraBold";
+        font-family: "Inter", sans-serif;
+        font-weight: 800; /* Extra Bold */
     }
 
     h1 {
         color: #000000;
-        font-weight: 700;
+        font-weight: 800;
     }
 
     @media (min-width: 992px) {
@@ -317,7 +287,8 @@ main {
     .link-g {
         text-decoration: none;
         color: #0f71bb;
-        font-family: "Inter-Regular";
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
     }
 
         .link-g i,
@@ -1047,7 +1018,8 @@ main {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-family: "Inter-Bold";
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
     }
 
     @media (min-width: 992px) {
@@ -1073,7 +1045,8 @@ main {
             padding: 0;
             color: white;
             text-decoration: none;
-            font-family: "Inter-Regular" !important;
+            font-family: "Inter", sans-serif !important;
+            font-weight: 400;
         }
 
     footer .social {
@@ -1640,7 +1613,8 @@ main {
     }
 
         .reuse-card .reuse-card-text p:first-of-type {
-            font-family: "Inter-Bold";
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
         }
 
     @media (min-width: 768px) {
@@ -2188,7 +2162,8 @@ main {
             }
 
             footer .footer--header span {
-                font-family: Inter-Bold;
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
                 font-size: 1em;
                 color: white;
             }
